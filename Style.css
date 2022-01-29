@@ -1,0 +1,116 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,500;0,600;1,400&family=Poppins:ital,wght@0,200;0,300;0,400;1,100;1,200;1,300&display=swap'); */
+*{
+    padding: 0;margin: 0;box-sizing: border-box;
+}
+
+body{
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Poppins', sans-serif;
+}
+.loginWrap{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #dadada;
+}
+.loginWrap .form{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    height: 550px;
+    width: 400px;
+    /* border: 1px solid; */
+    border-radius: 3px;
+    padding: 20px;
+    background-color: #fff;
+}
+.input_feild{
+    /* height: 100px; */
+}
+.input_feild input{
+width: 100%;
+/* cursor: pointer; */
+padding: 12px;
+margin-bottom: 14px;
+border: 1px solid #eee;
+/* border: none;. */
+border-radius: 3px;
+outline: none;
+transition: 0.2s all ease-in-out;
+}
+.input_feild input:hover{
+
+    border: 1px solid black;
+}
+.head{
+    height: 70px;
+    margin: 20px 0;
+    text-align: center;
+
+}
+.head i{
+    color: #29c5f6;
+    margin-bottom: 10px;
+    font-size: 3rem;
+}
+.loginbtn button{
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+    background-color: #666666;
+    outline: none;
+    border: none;
+    color: #fff;
+    border-radius: 3px;
+}
+.loginbtn button:hover{
+    background-color: #3c3c3c;
+}
+.forgotpass {
+    margin: 18px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.forgotpass a{
+    text-decoration: none;
+    color: #666666;
+    font-size: 14px;
+}
+.otheropt p{
+    text-align: center;
+   color: #cfcfcf;
+}
+
+.social_icon{
+    margin: 20px 0;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
+.social_icon div{
+    margin: 9px;
+}
+.social_icon div i {
+    font-size: 1.4rem;
+    color: #b4b4b4;
+    transition: all 0.2s ease-in-out;
+}
+
+.TandC p{
+    text-align: center;
+    font-size: 13px;
+    color: #b4b4b4;
+}
+.social_icon .g:hover{
+    color: #db4a39;
+}
+.social_icon .git:hover{
+    color: #171515  ;
+}
+.social_icon .f:hover{
+    color: #3b5998 ;
+}
+.social_icon .dot:hover{
+    color: #666666;
+}
