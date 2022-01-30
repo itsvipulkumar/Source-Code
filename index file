@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Style.css">
+    <title>Center Div</title>
+</head>
+<body>
+    <div class="outerlayer">
+        <h1>With the help of Flex box properties</h1>
+        <div class="outer1">
+            <div class="inner1">
+                Inner Div
+            </div>
+        </div>
+ <h1>With the help of positions</h1>
+        <div class="outer2">
+            <div class="inner2">
+                Inner Div
+            </div>
+        </div>
+    </div>
+</body>
+</html>
