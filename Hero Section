@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Bootstrap JavaScript -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+
+      nav {
+        padding: 0 30px !important;
+        height: 70px;
+        background-color: #000;
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        transition: background-color 0.3s ease; /* Smooth transition for background color change */
+      }
+      nav a {
+        text-decoration: none;
+        font-size: 18px;
+        padding: 0 10px;
+        color: #fff;
+      }
+      .hero {
+        background: url(https://www.bolton.ac.uk/assets/Uploads/iStock-1356593648.jpg)
+          no-repeat center center fixed;
+
+        background-size: cover;
+        height: 90vh;
+        overflow: hidden;
+        color: #fff;
+        padding: 20px 300px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        
+      }
+      .hero h1{
+        font-size: 50px
+    
+      }
+      .section_2 {
+        display: flex;
+        height: 100vh;
+        margin: 100px;
+      }
+
+      button {
+        padding: 20px 40px;
+
+        border: none;
+        border: 2px solid #f57c00;
+        background: #f57c00;
+        color: #fff;
+        border-radius: 30px;
+        font-weight: 600;
+        cursor: pointer;
+      }
+      @media (max-width: 800px) {
+        .hero {
+          flex-direction: column;
+        }
+      }
+      .nav-item.dropdown:hover .dropdown-menu {
+        display: block;
+      }
+
+      .navbar-brand img {
+        height: 60px;
+        width: 60px;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <nav
+        class="navbar navbar-expand-lg navbar-light bg-light fixed-top"
+        id="navbar"
+      >
+        <a class="navbar-brand" href="#"
+          ><img
+            src="https://static.vecteezy.com/system/resources/previews/000/607/077/non_2x/water-wave-logo-template-vector.jpg"
+            alt=""
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Dropdown 1
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Dropdown 2
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input
+              class="form-control mr-sm-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </nav>
+      <section>
+        <div class="hero">
+          <div class="headings">
+            <h1>
+              WE PROVIDE SERVICES AND SOLUTIONS
+              <span><i>To your start</i></span>
+            </h1>
+
+            <button>Start for free Now!</button>
+          </div>
+          <div class="text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Exercitationem mollitia sequi et adipisci. Exercitationem dicta
+            quaerat obcaecati aspernatur quibusdam, illum harum molestiae, sequi
+            officiis minus dolores dolorem rem. Doloremque ea aperiam commodi
+            magnam facere.
+          </div>
+        </div>
+      </section>
+
+      <sectio class="section_2">
+        <h1>Heading</h1>
+        <h4>This is a heading</h4>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
+          voluptates accusantium quia dicta distinctio veniam ut nobis a aliquid
+          alias. Fugit minus repellat eum tempora, asperiores natus officiis
+          culpa, corrupti qui numquam iste voluptate!
+        </p>
+      </sectio>
+    </div>
+
+    <script>
+      window.addEventListener("scroll", function () {
+        const navbar = document.getElementById("navbar");
+        if (window.scrollY > 0) {
+          navbar.style.backgroundColor = "#000"; // Change to the desired background color
+        } else {
+          navbar.style.backgroundColor = "transparent"; // Change to the initial background color
+        }
+      });
+
+      document.addEventListener("DOMContentLoaded", function () {
+        const dropdownTrigger = document.querySelector(".dropdown-toggle");
+        const dropdownMenu = document.querySelector(".dropdown-menu");
+
+        dropdownTrigger.addEventListener("mouseenter", function () {
+          dropdownMenu.classList.add("show");
+        });
+
+        dropdownTrigger.addEventListener("mouseleave", function () {
+          dropdownMenu.classList.remove("show");
+        });
+      });
+    </script>
+  </body>
+</html>
